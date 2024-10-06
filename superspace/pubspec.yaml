@@ -1,0 +1,56 @@
+name: superspace
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  circle_nav_bar: ^2.1.0+1
+  youtube_player_flutter: ^9.1.1
+  http: ^1.2.2
+  carousel_slider: ^5.0.0
+  auto_size_text: ^3.0.0
+
+  # Added dependencies from firstproject
+  persistent_bottom_nav_bar: ^6.2.1
+  dash_chat: ^1.1.16
+  chat_gpt_sdk: ^3.1.2
+  dash_chat_2: ^0.0.15
+  font_awesome_flutter: ^10.7.0
+  flutter_tts: ^4.0.2
+  url_launcher: ^6.0.20
+  flutter_launcher_icons: ^0.14.1  # Simge paketini ekledik
+  shared_preferences: ^2.3.2
+  flutter_svg: ^2.0.7
+  flutter_animate: ^4.2.0+1
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+# Uygulama simgesi için flutter_launcher_icons ayarları
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "images/ss1.jpg"  # Simge dosyanızın yolu
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+    - assets/svgs/   # images klasöründeki tüm resimleri ekle
+
+  # Örnek olarak spesifik resim dosyaları eklemek isterseniz:
+  # assets:
+  #   - images/space_bg.png
+  #   - images/planet_icon.png
